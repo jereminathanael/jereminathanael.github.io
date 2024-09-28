@@ -8,3 +8,19 @@
 section {
   padding-top: 5rem;
 }
+
+.line-container {
+  display: flex;
+  align-items: center;
+}
+.line-container hr {
+  flex: 1;
+  border: none;
+  height: 1px;
+  background-color: black;
+  margin: 0 10px; 
+}
+.line-container p {
+  margin: 0;
+  white-space: nowrap;
+}
