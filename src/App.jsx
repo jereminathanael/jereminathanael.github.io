@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
@@ -45,15 +45,17 @@ function App() {
         <Header darkMode={darkMode} setDarkMode={setDarkMode} language={language} setLanguage={setLanguage} />
 
         {/* Main */}
-        <Routes>
-          <Route path="/" element={<Home language={language} darkMode={darkMode} />} />
-          <Route path="/projects" element={<Projects language={language} />} />
-          <Route path="/skills" element={<Skills language={language} />} />
-          <Route path="/experience" element={<Experience language={language} />} />
-          <Route path="/contact" element={<Contact language={language} />} />
-          {/* random path */}
-          <Route path="*" element={<Home />} />
-        </Routes>
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home language={language} darkMode={darkMode} />} />
+            <Route path="/projects" element={<Projects language={language} />} />
+            <Route path="/skills" element={<Skills language={language} />} />
+            <Route path="/experience" element={<Experience language={language} />} />
+            <Route path="/contact" element={<Contact language={language} />} />
+            {/* random path */}
+            <Route path="*" element={<Home />} />
+          </Routes>
+        </Router>
 
         {/* Footer */}
         <Footer language={language} pages={pages} setPages={setPages} />
