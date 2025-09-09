@@ -31,7 +31,7 @@ const Experience = (props) => {
               />
               <WorkExperience
                 language={props.language}
-                title={`${props.language === "EN" ? "Finance Staff" : "Staff Keuangan"}`}
+                title={`${props.language === "EN" ? "Finance Staff (Internship)" : "Staff Keuangan (Magang)"}`}
                 company={"PT Bukaka Teknik Utama, tbk"}
                 startAt={`${props.language === "EN" ? "January 2022" : "Januari 2022"}`}
                 endAt={`${props.language === "EN" ? "March 2022" : "Maret 2022"}`}
