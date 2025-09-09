@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 function App() {
   const [darkMode, setDarkMode] = useState(false);
   const [language, setLanguage] = useState("EN");
-  const [pages, setPages] = useState("");
+  const [pages, setPages] = useState("about");
 
   // ambil preferensi dari local storage pada saat pertama kali render
   useEffect(() => {
