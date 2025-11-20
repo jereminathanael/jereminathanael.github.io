@@ -7,6 +7,17 @@ const Projects = (props) => {
         <h2 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white text-center">{props.language === "EN" ? "Featured Projects" : "Proyek Unggulan"}</h2>
         <div className="grid gap-3 md:gap-4 max-h-[400px] md:max-h-[500px] overflow-y-auto scrollbar-hide pr-2">
           <MyProject
+            img={"/assets/eco-craft.png"}
+            title={"Eco Craft Website"}
+            linkProject={"https://jereminathanael.github.io/EcoCraft-PWD-Kelompok3/"}
+            description={`${
+              props.language === "EN"
+                ? "EcoCraft Website is an educational page about eco-friendly crafting. It features descriptions, benefits, product examples, and a YouTube video. Designed with soft green tones and a responsive layout"
+                : "EcoCraft Website adalah halaman edukasi tentang kerajinan ramah lingkungan. Menampilkan penjelasan, manfaat, contoh produk, dan video YouTube. Didesain dengan nuansa hijau lembut dan layout responsif."
+            }`}
+            techs={["Tailwind", "JavaScript", "Company Profile"]}
+          />
+          <MyProject
             img={"/assets/taskManagerProject.png"}
             title={"Task Manager Fullstack Web App React"}
             linkProject={"https://github.com/jereminathanael/Task-Manager"}
