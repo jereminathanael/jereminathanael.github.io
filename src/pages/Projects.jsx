@@ -26,7 +26,29 @@ const Projects = (props) => {
                 ? "This project allows users to create, update, and delete tasks, manage task statuses, and view task history in a clean and responsive interface. It aims to help users organize their daily activities efficiently and track progress seamlessly."
                 : "Proyek ini memungkinkan pengguna untuk membuat, memperbarui, dan menghapus tugas, mengatur status tugas, serta melihat riwayat tugas melalui antarmuka yang bersih dan responsif. Tujuannya adalah membantu pengguna mengatur aktivitas harian dengan efisien dan memantau progres secara mudah."
             }`}
-            techs={["React", "PosgreSQL", "Auth"]}
+            techs={["React", "PosgreSQL", "Auth", "JavaScript", "Tailwind CSS"]}
+          />
+          <MyProject
+            img={"/assets/project-ielts.png"}
+            title={"Project IELTS Reading"}
+            linkProject={"https://github.com/jereminathanael/project-IELTS-reading/"}
+            description={`${
+              props.language === "EN"
+                ? "Project-IELTS is a reading test platform built with Laravel. Admins can create reading passages, questions, and answer keys, while users can attempt the tests and receive scores. It features role-based access, REST API with JWT auth, MySQL database, and full API documentation."
+                : "Project-IELTS adalah platform tes membaca berbasis Laravel. Admin dapat membuat soal bacaan, pertanyaan, dan kunci jawaban, sementara user dapat mengerjakan soal dan mendapatkan skor. Dilengkapi role-based access, REST API dengan autentikasi JWT, database MySQL, dan dokumentasi API lengkap."
+            }`}
+            techs={["Laravel", "MySQL", "REST APIs", "Role-Based Access", "PHP"]}
+          />
+          <MyProject
+            img={"/assets/project-simplebank.png"}
+            title={"Simple Bank Service"}
+            linkProject={"https://github.com/jereminathanael/simplebank/"}
+            description={`${
+              props.language === "EN"
+                ? "Simple Bank is a backend system built with Go that handles account management, fund transfers, and transaction history. It features RESTful & gRPC APIs, JWT/PASETO authentication, RBAC, async email workers with Redis, and is deployed on AWS EKS using Docker and Kubernetes."
+                : "Simple Bank adalah sistem backend yang dibangun dengan Go untuk mengelola akun, transfer dana, dan riwayat transaksi. Dilengkapi REST & gRPC API, autentikasi JWT/PASETO, RBAC, async email worker dengan Redis, dan di-deploy di AWS EKS menggunakan Docker dan Kubernetes."
+            }`}
+            techs={["Go", "PostgreSQL", "gRPC", "REST APIs", "Docker"]}
           />
           <MyProject
             img={"/assets/keeper-reactJs.png"}
@@ -48,18 +70,7 @@ const Projects = (props) => {
                 ? "This project is a modern and responsive website for Gereja Bethel Indonesia Harvest City. It consists of 12 pages built using HTML, CSS, Bootstrap, and SCSS to provide an engaging and user-friendly interface."
                 : "Proyek ini adalah situs web modern dan responsif untuk Gereja Bethel Indonesia Harvest City. Situs ini terdiri dari 12 halaman yang dibangun menggunakan HTML, CSS, Bootstrap, dan SCSS untuk menyediakan antarmuka yang menarik dan ramah pengguna."
             }`}
-            techs={["HTML", "Bootstrap", "Interactive"]}
-          />
-          <MyProject
-            img={"/assets/GBI-HC-NativeCSS.png"}
-            title={"GBI Harvest City"}
-            linkProject={"https://jereminathanael.github.io/GBI-Harvest-City/"}
-            description={`${
-              props.language === "EN"
-                ? "The GBI Harvest City website is a static website built using HTML, native CSS and JavaScript without framework to represent and promote Gereja Bethel Indonesia (GBI) Harvest City. The website serves as a digital platform for the church, showcasing important information."
-                : "Situs web GBI Harvest City adalah situs web statis yang dibangun menggunakan HTML, CSS asli, dan JavaScript tanpa kerangka kerja untuk merepresentasikan dan mempromosikan Gereja Bethel Indonesia (GBI) Harvest City. Situs web ini berfungsi sebagai platform digital bagi gereja, menampilkan informasi penting."
-            }`}
-            techs={["HTML", "Native CSS", "JavaScript"]}
+            techs={["Company Profile", "Bootstrap", "Interactive"]}
           />
           <MyProject
             img={"/assets/kopi-kenangan-kita.png"}

@@ -32,8 +32,8 @@ const Home = (props) => {
         </div>
         <div className="flex flex-col sm:flex-row gap-3 md:gap-4">
           <a
-            href="/CV_JeremiaNathanaelB.pdf"
-            download={"Jeremia_Nathanae_Bagiono_CV.pdf"}
+            href="/JeremiaNathanaelB_Backend_Engineer_CV.pdf"
+            download={"CV_JeremiaNathanaelBagiono.pdf"}
             className="flex items-center justify-center gap-2 px-4 py-3 md:px-6 md:py-3 bg-gradient-to-r from-gradient-from to-gradient-to hover:from-teal-600 hover:to-indigo-600 text-white rounded-xl font-semibold transition-all duration-300 text-sm md:text-base"
           >
             <MdOutlineFileDownload fontSize={"1.5rem"} />

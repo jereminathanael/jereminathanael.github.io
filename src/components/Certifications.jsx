@@ -17,16 +17,7 @@ const Certifications = (props) => {
             <div className="text-gray-900 dark:text-white font-medium text-xs md:text-sm">Certificate of Competency Assesment Accounting</div>
             <div className="text-gray-500 dark:text-gray-400 text-xs">2023</div>
           </div>
-        </div>
-        <div className="flex items-center gap-3 p-3 md:p-4 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 transition-all duration-300">
-          <span className="text-lg md:text-xl">
-            <img src="/assets/dicoding.png" className="w-10 h-10 md:w-12 md:h-12" alt="dicoding" />
-          </span>
-          <div className="flex-1">
-            <div className="text-gray-900 dark:text-white font-medium text-xs md:text-sm">Front-End Web</div>
-            <div className="text-gray-500 dark:text-gray-400 text-xs">2024</div>
-          </div>
-        </div>
+        </div> 
         <div className="flex items-center gap-3 p-3 md:p-4 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 transition-all duration-300">
           <span className="text-lg md:text-xl">
             <img src="/assets/udemy.png" className="w-10 h-10 md:w-12 md:h-12" alt="udemy" />
@@ -52,6 +43,15 @@ const Certifications = (props) => {
           <div className="flex-1">
             <div className="text-gray-900 dark:text-white font-medium text-xs md:text-sm">Cloud Basic & Gen AI di AWS</div>
             <div className="text-gray-500 dark:text-gray-400 text-xs">2025</div>
+          </div>
+        </div>
+         <div className="flex items-center gap-3 p-3 md:p-4 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 transition-all duration-300">
+          <span className="text-lg md:text-xl">
+            <img src="/assets/udemy.png" className="w-10 h-10 md:w-12 md:h-12" alt="udemy" />
+          </span>
+          <div className="flex-1">
+            <div className="text-gray-900 dark:text-white font-medium text-xs md:text-sm">Backend Master Class </div>
+            <div className="text-gray-500 dark:text-gray-400 text-xs">2026</div>
           </div>
         </div>
       </div>

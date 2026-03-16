@@ -1,12 +1,76 @@
-# React + Vite
+# Jeremia Nathanael Bagiono — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with React, showcasing my projects, skills, and experience as a Web Developer.
 
-Currently, two official plugins are available:
+🌐 **Live:** [jereminathanael.github.io](https://jereminathanael.github.io/#/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Multilingual (EN/ID)** — Switch between English and Indonesian
+- **Dark / Light Mode** — Toggle theme based on preference
+- **Responsive Design** — Fully optimized for mobile, tablet, and desktop
+- **GitHub Pages Deployment** — Hosted and auto-deployed via GitHub Pages
+
+---
+
+## Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| [React](https://react.dev) | UI framework |
+| [Vite](https://vitejs.dev) | Build tool & dev server |
+| [Tailwind CSS](https://tailwindcss.com) | Utility-first styling |
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org) v18+
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/jereminathanael/jereminathanael.github.io.git
+cd jereminathanael.github.io
+
+# Install dependencies
+npm install
+```
+
+### Running Locally
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Project Structure
+
+```
+.
+├── public/          # Static assets
+├── src/
+│   ├── components/  # Reusable UI components
+│   ├── assets/      # Images and icons
+│   └── main.jsx     # App entry point
+├── index.html
+├── vite.config.js
+├── tailwind.config.js
+└── package.json
+```
+
+---
+
+## Contact
+
+| Platform | Info |
+|---|---|
+| LinkedIn | [Jeremia Nathanael Bagiono](https://linkedin.com/in/jeremia-nathanael-bagiono) |
+| Location | Kabupaten Bogor, Indonesia |

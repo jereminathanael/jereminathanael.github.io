@@ -13,7 +13,7 @@ const Tools = (props) => {
         <SkillToolBox img={"/assets/social.png"} name={"Git & GItHub"} />
         <SkillToolBox img={"/assets/postman.png"} name={"Postman"} />
         <SkillToolBox img={"/assets/cloud-api.png"} name={"Rest API"} />
-        <SkillToolBox img={"/assets/docker.png"} name={"Docker (Basic)"} />
+        <SkillToolBox img={"/assets/docker.png"} name={"Docker"} />
         <SkillToolBox img={"/assets/aws.png"} name={"AWS (Basic)"} />
         <SkillToolBox img={"/assets/apple.png"} name={"Mac & Linux"} />
       </div>

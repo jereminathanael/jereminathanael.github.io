@@ -10,7 +10,7 @@ const SkillTool = (props) => {
         {props.titleSkillTool}
       </h3>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-3">
-        <SkillToolBox img={"/assets/html.png"} name={"HTML"} />
+        <SkillToolBox img={"/assets/golang.png"} name={"Golang"} />
         <SkillToolBox img={"/assets/css-3.png"} name={"CSS"} />
         <SkillToolBox img={"/assets/js.png"} name={"JavaScript"} />
         <SkillToolBox img={"/assets/science.png"} name={"React JS"} />
